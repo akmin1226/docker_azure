@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Docker Hub + Azure ACR CI/CD"
+    return "Version 2 Auto Deploy Success!"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
